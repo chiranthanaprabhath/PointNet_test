@@ -22,15 +22,15 @@ This is an implementation of PointNet: Deep Learning on Point Sets for 3D Classi
 
     sample points on the surface uniformly.
     
-   ### 1.3.1 Sample points
+   #### Sample points
    
-    <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Transforms.png" width="500">
-    
-   ### 1.3.2 Sample points
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Transforms.png" width="500">
+   
+   #### Normalize
+   
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Normalize.png" width="500">
+   
 
-   
-    <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Normalize.png" width="500">
-    
    ### 1.4 Augmentations
    
      objects can have different sizes and can be placed in different parts of our coordinate system.
