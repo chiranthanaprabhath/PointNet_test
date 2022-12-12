@@ -28,6 +28,7 @@ This is an implementation of PointNet: Deep Learning on Point Sets for 3D Classi
     
    #### Normalize
    
+      Unit sphere
     <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Normalize.png" width="500">
     
    ### 1.4 Augmentations
