@@ -22,13 +22,12 @@ This is an implementation of PointNet: Deep Learning on Point Sets for 3D Classi
 
     sample points on the surface uniformly.
     
-   #### Sample points
+    #### Sample points
    
     <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Transforms.png" width="500">
     
-   #### Normalize
+    #### Normalize
    
-      Unit sphere
     <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Normalize.png" width="500">
     
    ### 1.4 Augmentations
