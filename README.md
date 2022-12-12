@@ -1,40 +1,36 @@
 # PointNet_Demo_Model
 3D object classification and segmentation 
-# Covid-Tracker
-Contact Tracing Android Application 
-
 ## Abstract
 This is an implementation of PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation using PyTorch.
 
 ## 1 Main 3D Data operations
 
 
-   ### 1.1 Run the application for the first time
+   ### 1.1 .off files visualize
 
-   Users can run the application by tapping on the CovidTracker icon in the home screen. Video of app usage can be found at the below link 
-
-    https://drive.google.com/file/d/1_14XdcvrQxXOtfI1to3wlzNZ0o2XmPAO/view?usp=sharing
+   This dataset consists of .off files that contain meshes represented by vertices and triangular faces. Vertices are just points in a 3D space and each triangle is formed by 3 vertex indices.
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/visualize_with_face.png" width="240">
     
-   ### 1.2 Screens
+   ### 1.2 3D-point view
    
-   #### Language selection
-   This app supports both English and Sinhala language to improve usability of the app. Users can select the preferred language from the language selection screen.
+     we get rid of faces and keep only 3D-points
 
-   <img src="https://raw.githubusercontent.com/bGuom/Covid-Tracker/master/ScreenShots/2.jpg" width="240">
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/visualize_without_faces.png" width="240">
    
-   ### 1.3 Run the application for the first time
+   ### 1.3 Transforms
 
-   Users can run the application by tapping on the CovidTracker icon in the home screen. Video of app usage can be found at the below link 
-
-    https://drive.google.com/file/d/1_14XdcvrQxXOtfI1to3wlzNZ0o2XmPAO/view?usp=sharing
+    sample points on the surface uniformly.
+   #### Sample points
+    <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Transforms.png" width="240">
     
-   ### 1.4 Screens
+   #### Normalize
+    <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Normalize.png" width="240">
+    
+   ### 1.4 Augmentations
    
-   #### Language selection
-   This app supports both English and Sinhala language to improve usability of the app. Users can select the preferred language from the language selection screen.
-
-   <img src="https://raw.githubusercontent.com/bGuom/Covid-Tracker/master/ScreenShots/2.jpg" width="240">
+     objects can have different sizes and can be placed in different parts of our coordinate system.
+     
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Augmentations.png" width="240">
    
- 
 
    
