@@ -10,13 +10,13 @@ This is an implementation of PointNet: Deep Learning on Point Sets for 3D Classi
 
    This dataset consists of .off files that contain meshes represented by vertices and triangular faces. Vertices are just points in a 3D space and each triangle is formed by 3 vertex indices.
    
-   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/visualize_with_face.png" width="500">
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/ScreenShotPng/visualize_with_face.png" width="500">
     
    ### 1.2 3D-point view
    
      we get rid of faces and keep only 3D-points
 
-   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/visualize_without_faces.png" width="500">
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/ScreenShotPng/visualize_without_faces.png" width="500">
    
    ### 1.3 Transforms
 
@@ -24,18 +24,18 @@ This is an implementation of PointNet: Deep Learning on Point Sets for 3D Classi
     
    #### Sample points
    
-   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Transforms.png" width="500">
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/ScreenShotPng/Transforms.png" width="500">
    
    #### Normalize
    
-   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Normalize.png" width="500">
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/ScreenShotPng/Normalize.png" width="500">
    
 
    ### 1.4 Augmentations
    
      objects can have different sizes and can be placed in different parts of our coordinate system.
      
-   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/Augmentations.png" width="500">
+   <img src="https://raw.githubusercontent.com/chiranthanaprabhath/PointNet_test/main/ScreenShotPng/Augmentations.png" width="500">
    
 
    
